@@ -1,4 +1,4 @@
-# SeaGiX Search [![Standard version](https://badge.fury.io/gh/conventional-changelog%2Fstandard-version.svg)](https://github.com/saneeshzzz/seagix-search%2Fstandard-version)
+# SeaGiX Search [![Standard version](https://badge.fury.io/gh/conventional-changelog%2Fstandard-version.svg)](https://github.com/saneeshzzz/seagix-search/standard-version)
 
 SeaGiX simple open-sourced search engine.
 
@@ -14,7 +14,8 @@ Developed by Saneesh Oinam.
         keywords: "... some text",
         ...
         }, ...];
-    sgx.linearSearch(dataset, "... some text", "key.keywords.@object_keys", /* minimum search match; value between 0 - 1 */ );
+    let result = sgx.linearSearch(dataset, "... some text", "key.keywords.@object_keys", /* minimum search match; value between 0 - 1 */ );
+    console.log(result);
 
 # Status
 Still under development.
