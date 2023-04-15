@@ -1,2 +1,3 @@
 # seagix-search
-seagix simple search tool
+seagix open-sourced simple search tool
+
