@@ -1,4 +1,4 @@
-# SeaGiX Search [![Standard version](https://badge.fury.io/gh/conventional-changelog%2Fstandard-version.svg)](https://badge.fury.io/gh/conventional-changelog%2Fstandard-version)
+# SeaGiX Search [![Standard version](https://badge.fury.io/gh/conventional-changelog%2Fstandard-version.svg)](https://github.com/saneeshzzz/seagix-search%2Fstandard-version)
 
 SeaGiX simple open-sourced search engine.
 
