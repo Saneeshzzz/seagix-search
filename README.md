@@ -17,6 +17,7 @@ Developed by Saneesh Oinam.
 
 # Next update @v1.0.5
 > Stemming
+
 > word deconstructor
 
 # Status
