@@ -3,9 +3,9 @@
 SeaGiX simple open-sourced search engine@v1.0.2
 
 
-    <script src="https://cdn.jsdelivr.net/gh/saneeshzzz/seagix-search@v1.0/search.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/saneeshzzz/seagix-search@latest/search.js"></script>
     <script>
-        const sgx = new SeaGiX("https://cdn.jsdelivr.net/gh/saneeshzzz/seagix-search@v1.0/search_engine_v1.js");
+        const sgx = new SeaGiX("https://cdn.jsdelivr.net/gh/saneeshzzz/seagix-search@latest/search_engine_v1.js");
     </script>
 
 Developed by Saneesh Oinam.
