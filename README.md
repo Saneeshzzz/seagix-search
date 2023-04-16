@@ -1,21 +1,23 @@
-# SeaGiX Search [![Standard version](https://badge.fury.io/gh/conventional-changelog%2Fstandard-version.svg)](https://github.com/saneeshzzz/seagix-search/standard-version)
+# SeaGiX Search
 
-SeaGiX simple open-sourced search engine.
+SeaGiX simple open-sourced search engine@v1.0.2
 
 
     <script src="https://cdn.jsdelivr.net/gh/saneeshzzz/seagix-search@v1.0/search.js"></script>
+    <script>
+        const sgx = new SeaGiX("https://cdn.jsdelivr.net/gh/saneeshzzz/seagix-search@v1.0/search_engine_v1.js");
+    </script>
 
 Developed by Saneesh Oinam.
 # Syntax
+-- will be added soon
 
-    const sgx = new SeaGiX();
-    const dataset = [{
-        key: "... some text",
-        keywords: "... some text",
-        ...
-        }, ...];
-    let result = sgx.linearSearch(dataset, "... some text", "key.keywords.@object_keys", /* minimum search match; value between 0 - 1 */ );
-    console.log(result);
+# Featured
+> Relative searching
+
+# Next update @v1.0.5
+> Stemming
+> word deconstructor
 
 # Status
 Still under development.
