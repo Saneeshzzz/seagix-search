@@ -42,7 +42,7 @@ class SeaZard{
             index: 0,
             total: 0
         };
-        const arrays = [str1.toLowerCase().replace(/\s+/g, ' ').split(" "), str2.toLowerCase().replace(/\s+/g, ' ').split(" ")];
+        const arrays = [str1.toLowerCase().replace(/\s+/g, ' ').replace(/[^a-zA-Z ]/g, "").split(" "), str2.toLowerCase().replace(/\s+/g, ' ').split(" ")];
         for(let i = 0; i < arrays[0].length; i++){
             this.toAdd = {
                 index: 0,
